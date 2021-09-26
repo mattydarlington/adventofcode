@@ -26,7 +26,7 @@ def run_code(instruction):
         else:
             i += 1
     
-print('Answer for Day 7 Part 1 is:', run_code(raw_text))  
+print('Answer for Day 8 Part 1 is:', run_code(raw_text))  
 
 #### Need to change a nop to jmp or vica versa so code runs
 
@@ -59,4 +59,4 @@ def fix_code(text):
         if try_code(text_try) != 'Inf':
             return try_code(text_try)
             
-print('Answer for Day 7 Part 2 is:', fix_code(raw_text))  
+print('Answer for Day 8 Part 2 is:', fix_code(raw_text))  
