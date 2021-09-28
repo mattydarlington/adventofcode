@@ -29,7 +29,7 @@ while(True):
 
 #### answer is 1 jumps times 3 jumps
 answer = jumps[0] * jumps[2]
-print('Answer for Day 9 Part 1 is:', answer)
+print('Answer for Day 10 Part 1 is:', answer)
 
 #### Find number of ways can reach this sum
 #### Since always
@@ -42,4 +42,4 @@ for i in range(n):
             ind = numbers.index(numbers[i] + j)
             combinations[ind] += combinations[i]
     
-print('Answer for Day 9 Part 2 is:', combinations[n-1])  
+print('Answer for Day 10 Part 2 is:', combinations[n-1])  
