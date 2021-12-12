@@ -7,9 +7,6 @@ data = np.loadtxt('data.txt', delimiter = ',')
 
 print('Answer for Day 7 Part 1 is:', sum(abs(data - np.median(data))))
 
-# Need a smarter way for day 2
-# Solve with recursion and cache the outputs
-
 def triangle(n):
     return n/2*(n+1)
 
