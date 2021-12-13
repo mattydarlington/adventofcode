@@ -50,7 +50,7 @@ for i in range(n):
     string = raw_text[i].split()[0]
     count += corrupt_line(string)
 
-print('Answer for Day 10 Part 1 is:', count)
+print('Answer for Day 9 Part 1 is:', count)
 
 def complete_line(string):
     collapsed = []
@@ -88,4 +88,4 @@ for i in range(n):
             
 mid = int((len(scores) - 1)/2)
 
-print('Answer for Day 10 Part 2 is:', sorted(scores)[mid])   
+print('Answer for Day 9 Part 2 is:', sorted(scores)[mid])   
